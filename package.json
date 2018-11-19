@@ -1,0 +1,24 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "eat 'da burger",
+  "main": "index.js",
+  "scripts": {
+    "test": "whatup.exe"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xer34/burger.git"
+  },
+  "author": "Experimental Systems, LTD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xer34/burger/issues"
+  },
+  "homepage": "https://github.com/xer34/burger#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.16.0"
+  }
+}
