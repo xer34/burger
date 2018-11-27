@@ -1,19 +1,68 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: white;
+  color: black;
+}
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  background: grey;
 }
-
 .label {
   font-weight: bold;
 }
-
 .create-update-form {
   padding: 5px;
   margin: 5px;
-  background: aqua;
-}
 
+}
 .form-group {
   margin-bottom: 5px;
+}
+#burgerForm {
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.change-devoured {
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+#left {
+  width: 33.33%;
+  float: left;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: white;
+  top: 40%;
+}
+#middle {
+  width: 33.33%;
+  float: left;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: white;
+  top: 40%;
+}
+#right {
+  width: 33.33%;
+  float: left;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: white;
+  top: 40%;
 }
